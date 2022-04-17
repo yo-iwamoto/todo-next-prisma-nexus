@@ -1,15 +1,5 @@
-import { NextPage } from 'next';
-import Head from 'next/head';
-
-const Page: NextPage = () => {
-  return (
-    <div>
-      <Head>
-        <title>Prisma Blog</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-    </div>
-  );
+const Page = () => {
+  return <h1>Top Page</h1>;
 };
 
 export default Page;
